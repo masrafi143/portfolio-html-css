@@ -74,3 +74,27 @@ nav a{
 .banner-content button{
     margin-right: 20px;
 }
+
+/* About me section */
+.about-me{
+    background-color: #FFF8F3;
+    text-align: center;
+    border-radius: 10px;
+    margin: 50px 180px;
+    padding: 70px 100px;
+}
+.about-me h3{
+    font-weight: bold;
+    font-size: 35px;
+}
+.my-description{
+    margin: 20px 0;
+}
+.about-items{   
+    display: flex;
+    justify-content: space-between;
+}
+.item-description{
+    font-weight: bold;
+    font-size: 18px;
+}
