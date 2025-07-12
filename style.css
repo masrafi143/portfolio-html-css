@@ -7,20 +7,27 @@
     background-color: #FD6E0A;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 18px;
     font-weight: bold;
     font-size: 15px;
 }
+.secondary-bg-color{
+    background-color: #FFF8F3;
+}
 .txt-dark{
     color: #474747;
+}
+.section-title{
+    color: #181818;
+    font-weight: bold;
+    font-size: 35px;
 }
 /* Header section */
 header{
     background-image: url(./images/developer.png) , url(./images/header_bg.png);
     background-repeat: no-repeat;
     background-position:top left, bottom right;
-    background-color: #FFF8F3;
 }
 /* nav */
 nav{
@@ -77,15 +84,10 @@ nav a{
 
 /* About me section */
 .about-me{
-    background-color: #FFF8F3;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 30px;
     margin: 50px 180px;
     padding: 70px 100px;
-}
-.about-me h3{
-    font-weight: bold;
-    font-size: 35px;
 }
 .my-description{
     margin: 20px 0;
@@ -97,4 +99,37 @@ nav a{
 .item-description{
     font-weight: bold;
     font-size: 18px;
+}
+/* footer section */
+footer{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding: 100px 200px;
+}
+.footer-column, form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.social-links{
+    display: flex;
+    gap: 20px;
+}
+.form input{
+    height: 40px;
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.form label{
+    font-weight: bold;
+}
+.form textarea{
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 90px;
+    width: 400px;
+    padding: 10px;
 }
