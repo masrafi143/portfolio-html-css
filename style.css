@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* shared class */
+.btn-warning{
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 18px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.txt-dark{
+    color: #474747;
+}
+/* Header section */
+header{
+    background-image: url(./images/developer.png) , url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:top left, bottom right;
+    background-color: #FFF8F3;
+}
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+    padding-top: 30px;
+}
+nav h3{
+    font-weight: bolder;
+    font-size: 45px;
+}
+nav span{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* banner */
+.banner{
+    display: flex;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 200px;
+}
+.banner-content h4{
+    font-weight: 400;
+    font-size: 40px;
+}
+.banner-content h1{
+    font-weight: bold;
+    font-size: 60px;
+}
+.banner-content p{
+    margin: 25px 0;
+}
+.banner-content button{
+    margin-right: 20px;
+}
